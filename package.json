@@ -1,16 +1,20 @@
 {
-  "name": "naive-innova-stock-manager",
+  "name": "naive-innova-api",
   "version": "1.0.0",
-  "main": "index.html",
+  "description": "Backend API for Naive Innova Finished Goods Stock Management",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "deploy": "vercel --prod"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
-    "express": "^5.2.1",
-    "mongodb": "^6.21.0"
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "mongoose": "^8.0.0"
   },
   "devDependencies": {
-    "vercel": "^32.0.0"
-  }
+    "nodemon": "^3.1.0"
+  },
+  "author": "",
+  "license": "ISC"
 }
